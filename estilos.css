@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: rgb(17, 205, 77);
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    border: 1px solid black;
+}
+
+
+#container{
+    width: 90%;
+    margin: 0px auto;
+    border: 2px solid black;
+    
+}
+.clearfix{
+    clear: both;
+}
+body{
+    background: lightblue;
+    font-family: Arial;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.cabecera{
+    background: lightcoral;
+}
+
+tbody{
+    background: lightpink;
+}
+
+tfoot{
+    background: lightsalmon;
+}
+
+
+form{
+    min-height: 500px;
+    border: 2px solid black;
+}
+
+#content{
+    float: left;
+    width: 70%;
+    min-height: 500px;
+    background: green;
+
+}
+aside{
+    float: right;
+    width: 30%;
+    background: yellow;
+    min-height: 500px;
+    border: 2px solid black;
+
+}
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
