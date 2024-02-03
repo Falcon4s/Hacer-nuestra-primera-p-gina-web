@@ -3,9 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" type="image/x-png" href="./img/internet.png">
+    <meta name="description" content="Una pagina increible de la Anahuac">
+    <meta name="Keywords" content="blog de diseño web, desarrollo de paginas, Anibal">
+    <title>Mi primera chamba web</title>
 </head>
 <body>
-    
+    <!--
+        Esto es un comentario
+        Anibal Falcon 19/01/2024
+    -->
+
+    <h1>Hola mundo</h1>
+    <a href="https://www.google.com" target="_blank" rel="noopener noreferrer">Link1</a> 
+   <br><!-- Salto de linea-->
+   <hr>
+    <a href="https://www.netflix.com"><img src="./img/net.jpg" alt="Netflix"></a>
+    <a href="https://www.netflix.com"><img src="" alt=""></a>
+    <!--
+     Con # no se muestra nada en la linea 16   
+    -->
+
+    <!-- Encabezados-->
+
+    <h1>Titulo 1</h1>
+    <h2>Titulo 2</h2>
+    <h3>Titulo 3</h3>
+    <h4>Titulo 4</h4>
+    <h5>Titulo 5</h5>
+    <h6>Titulo 6</h6>
+
+    <br>
+        <!-- Lista ordenada-->
+    <ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+    </ol>
+        <!-- Lista desordenada-->
+    <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+    </ul>
+    <hr>        <!-- Una Linea-->
+
+    <!-- Parrafos   -->
+    <p class="" id="" name="">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur minus deleniti hic inventore vel eum laborum debitis, sit ipsa perferendis omnis ullam molestiae quibusdam aliquam ab alias ex unde. Nemo!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum qui similique animi molestias optio quae voluptates, quisquam voluptatibus impedit, blanditiis dolor a dolorem fugiat voluptatem ullam quo quas quibusdam ut?
+    </p>
+<!--Tablas-->
+<table border="1">
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Edad</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Anibal</td>
+            <td>Anibal@gmail.com</td>
+            <td>32</td>
+        </tr>
+        <tr>
+            <td>Guillermo</td>
+            <td>Guillermo@gmail.com</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>Simeon</td>
+            <td>Simeon@gmail.com</td>
+            <td>21</td>
+        </tr>
+        <tr>
+            <td>Simeon</td>
+            <td colspan="2">Simeon@gmail.com</td>
+        
+        </tr>
+    </tbody>
+    <tfoot>
+        <td colspan="2">Promedio</td>
+        <td>56<tr>
+    </tfoot>
+
+</table>
+<br><br><br><br><br>
+<form name="login">
+    <label for="Nombre"> Nombre:  </label>      
+    <input id="Nombre" name="Nombre" type="text" placeholder="Teclea tu nombre" value="Anibal" cl>  
+    <br>
+    <label for="Edad">Edad:</label>
+    <input type="number" name="Edad" step="2" min="0">
+    <br>
+    <label for="password">Password: </label>
+    <input type="text" name="password">
+    <br>
+    <label for="fecha">Fecha</label>
+    <input type="date" name="Fecha" min="2024-01-03" max="2024-01-10">
+    <br>
+    <label for="correo">Correo:</label>
+    <input type="email" name="correo">
+    <br>
+    <label for="notas">Notas</label>
+    <textarea name="notas" maxlength="" rows="12" cols="60">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus mollitia minima incidunt cum beatae quas dicta consequuntur, officia, est voluptatem quod animi! Corporis. </textarea>
+    <br><br>
+    <label for="estado">Estado:</label>
+    <select name="estado" id="estado">
+        <option value="">Seleccionar</option>
+        <option value="AGS">Aguascalientes</option>
+        <option value="CHS">Chiapas</option>
+        <option value="TAB">Tabasco</option>
+        <option value="YUC">Yucatan</option>
+    </select>
+    <br><br>
+    <label for="cine">Cine:</label>
+    <input type="checkbox" name="cine" checked>
+    <label for="futbol">Futbol:</label>
+    <input type="checkbox" name="futbol" checked>
+    <label for="series">Series::</label>
+    <input type="checkbox" name="series" checked>
+    <br><br>
+    <label for="cine">Cine:</label>
+    <input type="radio" name="cine" >
+    <label for="futbol">Futbol:</label>
+    <input type="radio" name="futbol" >
+    <label for="series">Series::</label>
+    <input type="radio" name="series" >
+    <br><br>
+    <input type="submit" name="enviar" id="enviar" value="Enviar">
+
+</form>
+
+<br><br><br><br><br>
 </body>
+
 </html>
