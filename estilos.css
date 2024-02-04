@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 header{
-    background: rgb(17, 205, 77);
+    background: rgb(41, 237, 103);
     height: 100px;
     width: 100%;
     margin: 0;
@@ -18,7 +18,7 @@ header{
 #container{
     width: 90%;
     margin: 0px auto;
-    border: 2px solid black;
+    border: 1px solid black;
     
 }
 .clearfix{
@@ -27,6 +27,7 @@ header{
 body{
     background: lightblue;
     font-family: Arial;
+    border: 1px solid black;
 }
 table{
     margin-left: auto;
@@ -50,22 +51,28 @@ tfoot{
 
 form{
     min-height: 500px;
-    border: 2px solid black;
+    border: 1px solid black;
 }
 
 #content{
     float: left;
     width: 70%;
-    min-height: 500px;
-    background: green;
-
+    min-height: 550px;
+    background: rgb(16, 56, 100);
+    color:  white;
+    border: 1px solid black;
+  
 }
 aside{
-    float: right;
+    float: left;
     width: 30%;
-    background: yellow;
-    min-height: 500px;
-    border: 2px solid black;
+    background: rgba(240, 240, 5, 0.531);
+    min-height: 550px;
+    border: 1px solid black;
+
+}
+aside h2{
+    padding: 30px;
 
 }
 footer{
@@ -74,4 +81,45 @@ footer{
     text-align: center;
     height: 50px;
     line-height: 50px;
+}
+.imagen{
+    width: 350px;
+    height: 250px;
+    margin: 0 5px;
+}
+.galeria{
+    display: flex;
+    justify-content: center;
+}
+.login{
+   background: rgb(47, 94, 144);
+    width: 60%;
+    padding: 50px;
+    margin: auto;
+    margin-top: 30px;
+}
+.login h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.control{
+    width: 150px;
+    background: #384b5e;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: 1px solid white;
+}
+.login .boton{
+    width: 100%;
+    background: #0e3a98;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    border-radius:  10px;
+
+
 }

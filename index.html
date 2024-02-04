@@ -12,53 +12,33 @@
         <h1>Hola, es mi primera pagina web con HTML Y CSS</h1>
     </header>
     <br><br>
-
+    <div class="galeria">
+        <img class="imagen"  src="./img/imagen2.jpeg" alt="">
+        <img class="imagen"  src="./img/imagen3.jpeg" alt="">
+        <img class="imagen"  src="./img/imagen4.jpeg" alt="">
+    </div>
+    <br><br>
     <div id="container">
        
         <section id="content">
             <form class="login">
+                <h4>Formulario</h4>
+                
                 <label for="Nombre"> Nombre:  </label>      
-                <input id="Nombre" name="Nombre" type="text" placeholder="Teclea tu nombre" value="Anibal" cl>  
-                <br>
+                <input class="control" id="Nombre" name="Nombre" type="text" placeholder="Teclea tu nombre">  
+                
                 <label for="Edad">Edad:</label>
-                <input type="number" name="Edad" step="2" min="0">
-                <br>
-                <label for="password">Password: </label>
-                <input type="text" name="password">
-                <br>
-                <label for="fecha">Fecha</label>
-                <input type="date" name="Fecha" min="2024-01-03" max="2024-01-10">
-                <br>
+                <input class="control" type="number" name="Edad" step="2" min="0" placeholder="Teclea tu edad">
+                
                 <label for="correo">Correo:</label>
-                <input type="email" name="correo">
-                <br>
-                <label for="notas">Notas</label>
-                <textarea name="notas" maxlength="" rows="12" cols="60">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus mollitia minima incidunt cum beatae quas dicta consequuntur, officia, est voluptatem quod animi! Corporis. </textarea>
-                <br><br>
-                <label for="estado">Estado:</label>
-                <select name="estado" id="estado">
-                    <option value="">Seleccionar</option>
-                    <option value="AGS">Aguascalientes</option>
-                    <option value="CHS">Chiapas</option>
-                    <option value="TAB">Tabasco</option>
-                    <option value="YUC">Yucatan</option>
-                </select>
-                <br><br>
-                <label for="cine">Cine:</label>
-                <input type="checkbox" name="cine" checked>
-                <label for="futbol">Futbol:</label>
-                <input type="checkbox" name="futbol" checked>
-                <label for="series">Series::</label>
-                <input type="checkbox" name="series" checked>
-                <br><br>
-                <label for="cine">Cine:</label>
-                <input type="radio" name="cine" >
-                <label for="futbol">Futbol:</label>
-                <input type="radio" name="futbol" >
-                <label for="series">Series::</label>
-                <input type="radio" name="series" >
-                <br><br>
-                <input type="submit" name="enviar" id="enviar" value="Enviar">
+                <input class="control" type="email" name="correo" placeholder="Teclea tu correo">
+                
+                <label for="password">Password: </label>
+                <input class="control" type="password" name="password" placeholder="Teclea tu password">
+                
+
+                
+                <input class="boton" type="submit" name="enviar" id="enviar" value="Enviar">
             </form>
         </section>
         <aside>
@@ -93,10 +73,25 @@
                         <td>Angel@gmail.com</td>
                         <td>32</td>
                     </tr>
+                    <tr>
+                        <td>Lucas</td>
+                        <td>Lucas@gmail.com</td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td>Luis</td>
+                        <td>Luis@gmail.com</td>
+                        <td>32</td>
+                    </tr>
+                    <tr>
+                        <td>Mario</td>
+                        <td>Mario@gmail.com</td>
+                        <td>32</td>
+                    </tr>
                 </tbody>
                 <tfoot>
-                    <td colspan="2">Promedio</td>
-                    <td>56</td>
+                    <td colspan="2">Total de usuarios</td>
+                    <td>7</td>
                 </tfoot>
             </table>
         </aside>
@@ -106,5 +101,9 @@
             Hecho por Anibal Simeon Falcon Castro
         </footer>
     </div>
+    <br><br>
+
+
+    <br><br>
 </body>
 </html>
